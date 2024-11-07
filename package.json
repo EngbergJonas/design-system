@@ -1,0 +1,20 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "Design system",
+  "homepage": "https://github.com/EngbergJonas/design-system#README",
+  "main": "index.js",
+  "author": "Jonas Engberg",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:app",
+    "build:tokens": "lerna run --scope tokens build",
+    "build:app": "npm run build:tokens",
+    "release": "lerna publish from-package --yes"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
