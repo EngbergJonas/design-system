@@ -25,6 +25,6 @@ jobs:
         working-directory: ./packages/jonas-design-tokens
 
       - name: release npm packages
-        run: npm run release --dist-tag patch
+        run: npm run release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
