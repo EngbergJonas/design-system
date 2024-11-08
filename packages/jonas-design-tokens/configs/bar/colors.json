@@ -7,6 +7,10 @@
     "white": {
       "value": "#ffffff",
       "type": "color"
+    },
+    "yellow": {
+      "value": "#fff00",
+      "type": "color"
     }
   }
 }
