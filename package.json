@@ -5,6 +5,7 @@
   "homepage": "https://github.com/EngbergJonas/design-system#README",
   "main": "index.js",
   "author": "Jonas Engberg",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
