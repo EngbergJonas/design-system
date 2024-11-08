@@ -11,6 +11,10 @@
     "yellow": {
       "value": "#fff00",
       "type": "color"
+    },
+    "green": {
+      "value": "#00ff00",
+      "type": "color"
     }
   }
 }
